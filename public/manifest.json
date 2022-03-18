@@ -1,0 +1,13 @@
+{
+  "short_name": "PokéReact",
+  "name": "Pokédex made with React and PokéAPI",
+  "icons": [
+    {
+      "src": "icon.webp",
+      "type": "image/webp",
+      "sizes": "128x128"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}

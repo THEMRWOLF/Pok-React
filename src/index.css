@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Unifont';
+  src: url('./assets/fonts/Unifont/unifont-14.0.02.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Unifont' !important;
+  -webkit-font-smoothing: none !important;
+  -moz-osx-font-smoothing: unset !important;
+  font-smoothing: unset !important;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.pixelated {
+  image-rendering: pixelated !important;
+}
+
+/* details {
+  display: inline-block !important;
+}
+
+summary {
+  content: '\25B6' !important;
+  display: inline-block !important;
+} */
+
+/* summary::marker {
+  content: '\25B6'; 
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+  margin: 40px !important;
+} */
